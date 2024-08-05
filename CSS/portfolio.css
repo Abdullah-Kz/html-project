@@ -1,0 +1,146 @@
+@font-face {
+    font-family: inter;
+    src: url(Inter-Regular.woff);
+  }
+
+  .content{
+    display: flex;
+    font-family: inter;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20em;
+    padding-bottom: 8em;
+    row-gap: 0px;
+    margin-top: 150px;
+    margin-bottom: -60px;
+    }
+    
+    
+    .content h3{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #F0592A;
+        margin-bottom: 14px;
+    }
+    
+    .content h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43.2px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 17px;
+    }
+    .content img{
+        margin-bottom: 16px;
+    }
+    .content p{
+        margin: 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: #666;
+       text-align: center;
+    }
+
+    .r1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 74.28px;
+        margin-left: 29.97px;
+        margin-right: 29.97px;
+    }
+    .r2{
+        display: flex;
+        justify-content: center;
+         margin-left: 29.97px;
+        margin-right: 29.97px;
+    }
+    .buttonhei{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        background:#FFFFFF;
+        color:#1B1B1B;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 78px;
+        padding-right: 78px;
+        text-decoration: none;
+        border-radius: 5px;
+       margin-left: 32px;
+    }
+    .buttonhei:hover{
+        font-family: inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        background: #f60;
+        color: #fff;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 78px;
+        padding-right: 78px;
+        text-decoration: none;
+        border-radius: 5px;
+       margin-left: 32px;
+    }
+
+    .logodesigning{
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px;
+    }
+
+    .appdevelopment{
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px;
+    }
+    .webdesigning{
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px; 
+    }
+    .viewall{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-family: inter;
+        background: #f60;
+        color: #fff;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+     
+    }
+    .viewall:hover{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        font-family: inter;
+        background:#fff;
+        color:black;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px;
+     
+    }
+
+    .rowbutton {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
