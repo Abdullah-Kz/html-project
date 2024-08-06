@@ -71,6 +71,7 @@ line-height:31.47p;
    .contact-form form {
      display: flex;
      flex-direction: column;
+     border: none;
    }
    
    .contact-form form input,
