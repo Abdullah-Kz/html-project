@@ -2,54 +2,60 @@
   font-family: inter;
   src: url(Inter-Regular.woff);
 }
-.hero {
+.homebanner-sec {
     background-image: url(backgroundimages/Homebanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: space-around;
-     display: flex;
      padding: 2em 0;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
    }
-   
-   .hero-content {
-     max-width: 40%;
-     padding-left: 150px;
+   .homebanner{
+    display: flex;
+    justify-content: center;
+   }
+ 
+   .homebanner-content {
+    
+     margin-left: 50px;
+     margin-right: 108px;
      padding-bottom: 100px;
      padding-top: 100px;
      
    }
    
-   .hero-content h1 {
+   .homebanner-content h1 {
    
    color: #F3F3F3;
      font-family:inter;
      font-weight: 600;
      font-size: 56px;
+     margin-bottom: 29px;
      
    }
    
-   .hero-content p {
+   .homebanner-content p {
     color: #CDCDCD;
      font-family:inter;
      font-weight: 400;
      font-size: 15px;
      margin-bottom: 2.5em;
    }
-   .hero-content h6 {
+   .homebanner-content h6 {
     color: #F3F3F3;
      font-family:inter;
      font-weight: 500;
      font-size: 20px;
+     margin-bottom: -20px;
    }
   
    .contact-form {
-    
      background: #fff;
      font-family:inter;
      font-weight: 600;
      padding: 2em 1.25em;
      margin: auto;
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      border-radius: 5px;
    }
    
@@ -74,24 +80,50 @@ line-height:31.47p;
    }
    
    .contact-form form input,
-   .contact-form form textarea,
-   .contact-form form select {
+   .contact-form form textarea {
      margin-bottom: 1.5em;
      padding: 1em;
-     border: 1px solid #ccc;
+     border: none;
      background-color: #ECECEC;
      border-radius: 5px;
-     border: 0;
    }
    .contact-form form input::placeholder,
-   .contact-form form textarea::placeholder,
-   .contact-form form select::placeholder{
-
+   .contact-form form textarea::placeholder{
     color: #ACACAC;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.94px;
    }
+
+   .select_box{
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #ECECEC;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    position: relative;
+  }
+  .select_box:after{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #f60;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    content: "";
+    z-index: 98;
+   }
+  .select_box select{
+    right: 5px;
+    position: relative;
+    border: none;
+    z-index: 99;
+    background: none;
+  }
   
 
    

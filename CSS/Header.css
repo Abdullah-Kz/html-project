@@ -6,19 +6,19 @@ body {
   background-color:#F4F4F4;
   margin: 0;
   padding: 0;
- 
 }
 
-header {
+.header-sec{
   padding: 1rem 0;
+}
+
+nav img {
+  margin-bottom: 4px;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 nav ul {
@@ -30,7 +30,9 @@ line-height: 16px;
 letter-spacing: 1px;
   font-weight: 600;
  gap: 65px;
- padding-right: 90px;
+ margin-left: 90.5px;
+ margin-right: 136.5px;
+ align-items: center;
 }
 nav ul :hover {
   transition: 0.2s;
@@ -70,6 +72,9 @@ nav ul li a :hover {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 1px;
+  margin-bottom: 18px;
+  margin-top: 5px;
+ 
 }
 .contact-button:hover {
   background:#fff;
@@ -85,6 +90,8 @@ letter-spacing: 1px;
   padding-right: 32px;
   text-decoration: none;
   border-radius: 4px;
+  margin-bottom: 18px;
+  margin-top: 5px;
 }
 
 
