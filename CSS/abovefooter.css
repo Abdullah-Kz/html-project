@@ -2,6 +2,9 @@
     font-family: inter;
     src: url(Inter-Regular.woff);
 }
+.abovefooter{
+    background-color: #1B1B1B;
+}
 .ending{
     display: flex;
     justify-content: center;
@@ -88,6 +91,3 @@ text-decoration: none;
 
 }
 
-.lastsec{
-    background-color: #1B1B1B;
-}
